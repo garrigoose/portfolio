@@ -118,4 +118,5 @@ const NavBar = () => {
 };
 
 const NavBarWithRouter = withRouter(NavBar);
+
 export default NavBarWithRouter;

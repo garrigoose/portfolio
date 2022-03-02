@@ -1,33 +1,36 @@
 {
-    "experiences": [
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
-            "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
-            ],
-            "dateText": "06/20XX – Present"
-        },
-        {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
-    ]
+  "experiences": [
+    {
+      "title": "General Assembly",
+      "subtitle": "Fullstack Development Fellow",
+      "workType": "Part-Time",
+      "workDescription": [
+        "Implemented 4 portfolio projects.",
+        "Created full-stack application using technologies such as JS, React, NodeJS, MongoDB, and Express",
+        "Creator of 'HackStack HappyHour' - an algorithm study group aimed at solidifying key CS concepts"
+      ],
+      "dateText": "2022"
+    },
+    {
+      "title": "The Wythe Hotel",
+      "subtitle": "Executive Event Chef",
+      "workType": "Full-Time",
+      "workDescription": [
+        "Department head with full responsiblity for fulfillment of events",
+        "Manager in charge of teams up to 15 people",
+        "Compliance certifier of precision culinary execution"
+      ],
+      "dateText": "2021"
+    },
+    {
+      "title": "Christies Auction House",
+      "subtitle": "Executive Chef",
+      "workType": "Full-Time",
+      "workDescription": [
+        "Ensuring client satisfaction",
+        "Deadline management"
+      ],
+      "dateText": "2018"
+    }
+  ]
 }
