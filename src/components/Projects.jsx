@@ -47,7 +47,7 @@ const Projects = (props) => {
                 ))}
               </Row>
 
-              {!showMore
+              {/* {!showMore
                 && (
                 <Button
                   style={styles.showMoreStyle}
@@ -56,7 +56,7 @@ const Projects = (props) => {
                 >
                   show more
                 </Button>
-                )}
+                )} */}
             </Container>
           </div>
         ) : <FallbackSpinner /> }
