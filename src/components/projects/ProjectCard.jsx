@@ -1,5 +1,7 @@
 import React, { useContext } from 'react';
-import { Button, Card, Badge, Col } from 'react-bootstrap';
+import {
+  Button, Card, Badge, Col,
+} from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
@@ -47,7 +49,7 @@ const ProjectCard = (props) => {
         }}
         text={theme.bsSecondaryVariant}
       >
-        <Card.Img variant="'top'" src={project?.image} />
+        <Card.Img variant="top" src={project?.image} />
         <Card.Body>
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
@@ -92,7 +94,7 @@ ProjectCard.propTypes = {
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,
     image: PropTypes.string,
-    links: PropTypes.arrayOf(PropTypes.string),
+    links: PropTypes.arrayOf(PropTypes.object),
     tags: PropTypes.arrayOf(PropTypes.string),
   }).isRequired,
 };
