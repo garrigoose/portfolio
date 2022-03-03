@@ -14,6 +14,7 @@ const styles = {
   },
   showMoreStyle: {
     margin: 25,
+    display: 'none',
   },
 };
 
@@ -47,16 +48,16 @@ const Projects = (props) => {
                 ))}
               </Row>
 
-              {/* {!showMore
+              {!showMore
                 && (
                 <Button
                   style={styles.showMoreStyle}
                   variant={theme.bsSecondaryVariant}
                   onClick={() => setShowMore(true)}
                 >
-                  show more
+                  {/* show more */}
                 </Button>
-                )} */}
+                )}
             </Container>
           </div>
         ) : <FallbackSpinner /> }
