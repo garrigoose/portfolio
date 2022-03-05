@@ -42,6 +42,14 @@
           "title": "Nodejs"
         },
         {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+          "title": "Express"
+        },
+        {
+          "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+          "title": "Flask"
+        },
+        {
           "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
           "title": "Bootstrap"
         }
