@@ -56,6 +56,33 @@
         "Express",
         "Heroku"
       ]
+    },
+    {
+      "image": "../images/zevhub.png",
+      "title": "LoFive - Music-themes Social Chat App",
+      "bodyText": "Ecommerce marketplace application for the sale of electronic mobility.\n - Front and backend developed entirely by me with the MERN stack\n - Used a NodeJS backend for a remote server, the React API for front-end user interface, and Redux for state management.\n - Deployed on **heroku**.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/diamond-dogs-928"
+        },
+        {
+          "text": "Live",
+          "href": "https://zevhub-frontend.herokuapp.com/"
+        }
+      ],
+      "tags": [
+        "JavaScript",
+        "Redux",
+        "Bootstrap",
+        "CSS",
+        "HTML",
+        "React",
+        "MongoDB",
+        "NodeJS",
+        "Express",
+        "Heroku"
+      ]
     }
   ]
 }
